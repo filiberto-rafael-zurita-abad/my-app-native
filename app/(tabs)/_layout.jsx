@@ -1,12 +1,11 @@
-import { Tabs } from "expo-router";
-import { Ionicons } from '@expo/vector-icons';
+import { Tabs } from 'expo-router'
+import { Ionicons } from '@expo/vector-icons'
 
-export default function RootLayout() {
+export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
-        headerTitle: "hello",
-        headerTitleAlign: "left",
+        headerShown: false,
       }}
     >
       <Tabs.Screen 
@@ -37,5 +36,5 @@ export default function RootLayout() {
         }}
       />
     </Tabs>
-  );
-}
+  )
+} 
